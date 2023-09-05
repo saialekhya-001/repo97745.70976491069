@@ -22,13 +22,16 @@
 							"    pm.collectionVariables.set('token', pm.response.json().token)",
 							"})",
 							"",
-							"// console.log hello there hey ehye"
+							"// console.log hello there hey ehye",
+							"// console.log hello there hey ehye",
+							"// console.log hello there hey ehye",
+							""
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"id": "c1814cc7-0638-4ac9-872f-b513b068685b",
+			"_postman_id": "c1814cc7-0638-4ac9-872f-b513b068685b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -46,17 +49,18 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "367592e9-ef73-49a5-8e76-aa12767caff0",
 						"exec": [
-							"pm.test(\"A name is returned\", () => {",
-							"    pm.expect(pm.response.json()).to.have.property('name');",
-							"    pm.expect(pm.response.json().name).to.be.a('string');",
-							"})"
+							"// these are theupdated from Alekhya",
+							"// hello there ",
+							"// yeah we are collaborationg",
+							"// yeah"
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"id": "ba8281c2-fd60-4867-8368-bb7813da6411",
+			"_postman_id": "ba8281c2-fd60-4867-8368-bb7813da6411",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -97,16 +101,23 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "aec70aef-97eb-4991-bf54-7220c5511002",
 						"exec": [
 							"pm.test(\"Returns 200 OK status\", () => {",
 							"    pm.response.to.have.status(200)",
-							"})"
+							"})",
+							"",
+							"// hello alekhya",
+							"// hehe there? console log here, postman"
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"id": "06f3af14-5f85-4bc1-bf75-274dcb33b7ec",
+			"_postman_id": "06f3af14-5f85-4bc1-bf75-274dcb33b7ec",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -153,14 +164,16 @@
 	],
 	"variable": [
 		{
-			"id": "bdff07e4-ba1d-4b0e-8bdd-9abd843a4832",
+			"id": "51da769a-0008-410a-aa3d-4c786b7666ab",
 			"key": "token",
-			"value": ""
+			"value": "",
+			"type": "string"
 		},
 		{
-			"id": "8af85369-8145-4828-bdeb-eb4effefa04b",
+			"id": "7b31f4e5-e6b8-4fe2-9b87-ee25c1fa74cf",
 			"key": "baseUrl",
-			"value": "https://postman-integration-testing.glitch.me/"
+			"value": "https://postman-integration-testing.glitch.me/",
+			"type": "string"
 		}
 	]
 }

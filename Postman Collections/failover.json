@@ -22,7 +22,7 @@
 							"    pm.collectionVariables.set('token', pm.response.json().token)",
 							"})",
 							"",
-							"// console.log hello there"
+							"// console.log hello there hey ehye"
 						],
 						"type": "text/javascript"
 					}
@@ -153,12 +153,12 @@
 	],
 	"variable": [
 		{
-			"id": "5b6b8b49-5661-43a4-92a9-f25d4cdba118",
+			"id": "bdff07e4-ba1d-4b0e-8bdd-9abd843a4832",
 			"key": "token",
 			"value": ""
 		},
 		{
-			"id": "9114da14-bf03-419e-aef2-7cad6c0b96ca",
+			"id": "8af85369-8145-4828-bdeb-eb4effefa04b",
 			"key": "baseUrl",
 			"value": "https://postman-integration-testing.glitch.me/"
 		}
